@@ -27,7 +27,7 @@ yarn dev
 ```
 
 ## Live webpage on GitHub pages
-[https://mikaojk.github.io/alle-barna-vitser]( https://mikaojk.github.io/alle-barna-vitser)
+[https://mikaojk.github.io/alle-barna-vitser](https://mikaojk.github.io/alle-barna-vitser)
 
 ## Contact
 
