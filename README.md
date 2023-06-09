@@ -26,6 +26,9 @@ Run the development server with this command:
 yarn dev
 ```
 
+## Live webpage on GitHub pages
+[https://mikaojk.github.io/alle-barna-vitser]( https://mikaojk.github.io/alle-barna-vitser)
+
 ## Contact
 
 This project is maintained by [CODEOWNERS](CODEOWNERS)
