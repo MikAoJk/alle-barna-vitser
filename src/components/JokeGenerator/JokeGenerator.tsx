@@ -47,6 +47,14 @@ const JokeGenerator = () => {
 }
 
 async function fetchData(): Promise<any> {
+
+    if (process.env.NODE_ENV === 'production') {
+        // Need this in production due to using next export, in GitHub pages
+        // The API Routes are not supported using next export
+        return fetch("https://mikaojk.github.io/alle-barna-vitser/data.json")
+            .then((res) => res.json());
+    } else {
+
         const response = await fetch(JOKE_URL, {
             method: 'GET'
         });
@@ -56,6 +64,7 @@ async function fetchData(): Promise<any> {
         }
 
         return await response.json();
+    }
 
 }
 
