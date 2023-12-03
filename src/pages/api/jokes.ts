@@ -12,7 +12,7 @@ export default async function handler(
     res: NextApiResponse<Array<Joke>>
 ) {
     if (process.env.NODE_ENV !== 'production') {
-    const jsonDirectory = path.join(process.cwd(), 'public');
+    const jsonDirectory = path.join(process.cwd(), 'src/json');
     const json = await fs.readFile(jsonDirectory + '/data.json', 'utf8');
 
     const quotes: Array<Joke> = JSON.parse(json);
