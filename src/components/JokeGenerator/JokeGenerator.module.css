@@ -3,3 +3,7 @@
     margin: 0 auto;
     max-width: 30em;
 }
+
+.button {
+  font-size: 16px;
+}
