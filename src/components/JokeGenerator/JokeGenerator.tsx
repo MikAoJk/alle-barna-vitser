@@ -255,7 +255,7 @@ const JokeGenerator = () => {
             <h1>Alle barna vitser</h1>
             {(jokeData?.text) &&
                 <section>
-                    <button onClick={getNewJoke}>Ny vits</button>
+                    <button className={styles.button}> onClick={getNewJoke}>Ny vits</button>
                     <h3>
                         {jokeData?.text}
                     </h3>
